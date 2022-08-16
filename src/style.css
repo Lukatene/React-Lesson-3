@@ -1,0 +1,82 @@
+body{
+    margin:0;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    height: 100vh;
+    
+  }
+
+  .main{
+
+   height: 700px;
+    width: 600px;
+    background-color: #171c31;
+  }
+
+  .wrapper{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .h1{ 
+ 
+    margin:0;
+    padding:30px;
+    font-size:30px;
+    text-transform:uppercase;
+    position:relative;
+    color: pink;
+ }
+
+ .ClearallButton{
+    width: 100px;
+    margin-top: 30px;
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  height: 30px;
+
+}
+
+.line{
+margin-top: 80px;
+background-color: pink;
+    width: 570px;
+    height: 3px;
+ z-index: 3;
+    position: absolute;
+}
+
+
+.todolistdiv{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.deletebutton{
+    width: 100px;
+    margin-top: 6px;
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  height: 30px;  
+  
+}
+
+ .names{
+
+    color: pink;
+    font-size: 30px;
+ }
